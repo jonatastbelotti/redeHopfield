@@ -90,6 +90,7 @@ public class Hopfield {
     recuperarEntradas(Tabelas.getTabelaRuido());
     copiarVetor(entrada, v_atual);
 
+    //Enquanto a saida atual for diferente da anterior
     do {
       copiarVetor(v_atual, v_anterior);
 
